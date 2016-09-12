@@ -3,22 +3,23 @@
 <head>
 	<title>AnalogSea Signup</title>
 	<link rel="stylesheet" type="text/css" href="styles.css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="utf-8" />
+	<meta name="description" content="Sign up for AnalogSea here." />
 </head>
 <body>
 	<a class="logo" href="#"><img src="logo.png" alt="AnalogSea Logo" /></a>
 	<form method="post" action="/signup/" id="signup-form">
-		<h1>Sign up</h1>
+		<legend>Sign up</legend>
 		<label for="email">Email</label>
-		<input type="email" name="email" placeholder="foo@bar.com" />
+		<input type="email" name="email" placeholder="foo@bar.com" required />
 		<label for="password">Password</label>
-		<input type="password" name="password" placeholder="1234passwOrd" />
+		<input type="password" name="password" placeholder="1234passwOrd" required />
 		<button type="submit" form="signup-form" value="Submit">Sign up</button>
 		<div class="forgot-password">
-			<a href="#">Forgot password?</a>
+			<a href="/forgot-password/new">Forgot password?</a>
 		</div>
 	</form>
-	<p class="already-have">Already have an account? <a href="#">Log in</a></p>
+	<p class="already-have">Already have an account? <a href="/login">Log in</a></p>
 </body>
 </html>

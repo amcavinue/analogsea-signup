@@ -7,7 +7,7 @@
 body {
 	background-color: #3F94E7;
 	text-align: center;
-	font-family: "Lato", sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 
 .logo {
@@ -27,9 +27,11 @@ body {
 	text-align: left;
 }
 
-#signup-form h1 {
+#signup-form legend {
 	text-align: center;
 	font-size: 2em;
+	font-weight: 300;
+	color: #444;
 }
 
 #signup-form input, label {
@@ -50,6 +52,10 @@ body {
 	background-color: #65C470;
 	color: white;
 	font-weight: bold;
+}
+
+#signup-form button:hover {
+	background-color: #3EA24A;
 }
 
 #signup-form .forgot-password {
