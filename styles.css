@@ -1,11 +1,13 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-size: 16px;
 }
 
 body {
 	background-color: #3F94E7;
 	text-align: center;
+	font-family: "Lato", sans-serif;
 }
 
 .logo {
@@ -15,4 +17,54 @@ body {
 
 .logo img {
 	height: 2.1875em;
+}
+
+#signup-form {
+	background-color: #fff;
+	width: 20em;
+	padding: 2.5em;
+	margin: 2em auto 0 auto;
+	text-align: left;
+}
+
+#signup-form h1 {
+	text-align: center;
+	font-size: 2em;
+}
+
+#signup-form input, label {
+	display: block;
+	margin-top: 1em;
+}
+
+#signup-form input, button {
+	width: 17.875em;
+	border: 0.125em lightgrey solid;
+	padding: 0.9375em;
+	margin-top: 1em;
+}
+
+#signup-form button {
+	height: 3.4375em;
+	width: 20em;
+	background-color: #65C470;
+	color: white;
+	font-weight: bold;
+}
+
+#signup-form .forgot-password {
+	margin: 1em auto 0 auto;
+	text-align: center;
+}
+
+#signup-form .forgot-password a {
+	color: grey;
+	font-size: small;
+}
+
+.already-have, .already-have a {
+	color: white;
+	font-weight: bold;
+	font-size: small;
+	margin-top: 1em;
 }
